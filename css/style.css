@@ -1,0 +1,326 @@
+/* first */
+.header {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+}
+.header__icon {
+  margin-top: 346px;
+}
+.header__text {
+  text-align: center;
+  max-width: 610px;
+}
+.header__title {
+  margin: 0;
+  margin-top: 63px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__subtitle {
+  margin: 0;
+  margin-top: 27px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.scroll__img {
+  margin-top: 215px;
+  padding-bottom: 119px;
+}
+.scroll__link:hover {
+  opacity: 0.5;
+}
+/* second */
+.about {
+  position: relative;
+  margin: 160px 0;
+  max-width: 930px;
+  border: 1px solid black;
+  border-top: none;
+}
+.about__title-text {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.about__title-border {
+  width: 278px;
+  height: 1px;
+  background-color: black;
+}
+.about__text {
+  margin: 60px 0;
+}
+.about__subtitle:last-child {
+  margin-top: 32px;
+}
+
+.about__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+  letter-spacing: 0.2px;
+}
+/* third  */
+.section__services {
+  background: url(../img/bg2.png) no-repeat;
+  background-size: cover;
+}
+.services {
+  position: relative;
+  margin: 160px 0;
+  max-width: 930px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.services__title-text {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.services__title-border {
+  width: 288px;
+  height: 1px;
+  background-color: black;
+}
+.services__text {
+  margin: 60px 0;
+}
+.services__subtitle:last-child {
+  margin-top: 32px;
+}
+
+.services__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+  letter-spacing: 0.2px;
+}
+/* fourth */
+.what-we-do {
+  position: relative;
+  margin: 160px 0;
+  max-width: 930px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.what-we-do__title-text {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.what-we-do__title-border {
+  width: 250px;
+  height: 1px;
+  background-color: black;
+}
+.text {
+  margin: 58px 0;
+}
+.what-we-do__imegas {
+  display: block;
+  margin: 0 auto;
+}
+.text__title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.what-we-do__subtitle {
+  margin: 0;
+  margin-top: 26px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+}
+/* fifth */
+.images {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.images__text-1 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  background: url(../img/Rectangle1.png) no-repeat;
+  background-size: cover;
+  min-width: 633px;
+  min-height: 293px;
+}
+.images__text-2 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  min-width: 633px;
+  min-height: 293px;
+  background: url(../img/Rectangle2.png) no-repeat;
+  background-size: cover;
+}
+.images__text-3 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  min-width: 633px;
+  min-height: 293px;
+  background: url(../img/Rectangle3.png) no-repeat;
+  background-size: cover;
+}
+.images__text-4 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  min-width: 633px;
+  min-height: 293px;
+  background: url(../img/Rectangle4.png) no-repeat;
+  background-size: cover;
+}
+.images__text-5 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  min-width: 633px;
+  min-height: 293px;
+  background: url(../img/Rectangle5.png) no-repeat;
+  background-size: cover;
+}
+.images__text-6 {
+  margin: 5px 0;
+  padding: 229px 0 23px 30px;
+  min-width: 633px;
+  min-height: 293px;
+  background: url(../img/Rectangle6.png) no-repeat;
+  background-size: cover;
+}
+/* sixth */
+.contact {
+  position: relative;
+  margin: 155px 0 0 0px;
+  max-width: 930px;
+  border: 1px solid black;
+  border-top: none;
+}
+.contact__title-text {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.contact__title-border {
+  width: 258px;
+  height: 1px;
+  background-color: black;
+}
+.contact__text {
+  margin: 60px 0;
+}
+.contact__subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+}
+.contact__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 290px;
+  height: 58px;
+  background: #3c3c3c;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 19.5px 95.5px;
+  color: #ffffff;
+}
+/* seventh */
+.footer{
+  margin-top: 152px;
+  margin-bottom: 30px;
+}
+.footer__img{
+  margin-right: 14px;
+}
+.footer__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
