@@ -4718,7 +4718,7 @@ html {
   background-position: center center;
 }
 .services__content {
-  border: 1px solid #3c3c3c;
+  border: 1px solid #FFFFFF;
   border-top: none;
   padding: 0.1px;
 }
@@ -4730,7 +4730,7 @@ html {
   line-height: 41px;
   text-align: center;
   text-transform: uppercase;
-  color: #3c3c3c;
+  color: #FFFFFF;
   margin: 0;
   margin-top: -20px;
 }
@@ -4741,7 +4741,7 @@ html {
   max-width: 288px;
   width: 100%;
   max-height: 1px;
-  background: #3c3c3c;
+  background: #FFFFFF;
 }
 .services__title::before {
   margin-top: 20px;
@@ -4750,7 +4750,7 @@ html {
   max-width: 288px;
   width: 100%;
   max-height: 1px;
-  background: #3c3c3c;
+  background: #FFFFFF;
 }
 .services__subtitle {
   margin-top: 40px;
@@ -4760,7 +4760,7 @@ html {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #3c3c3c;
+  color: #FFFFFF;
   letter-spacing: 0.1px;
   max-width: 450px;
 }
@@ -4768,6 +4768,219 @@ html {
   letter-spacing: 0.2px;
   margin-top: 32px;
   margin-bottom: 58px;
+}
+
+.whatWeDo {
+  margin: 160px 0;
+  border: 1px solid #3c3c3c;
+  border-top: none;
+}
+.whatWeDo__content {
+  padding: 0.1px;
+}
+.whatWeDo__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  margin: 0;
+  margin-top: -20px;
+}
+.whatWeDo__title::after {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  max-width: 251px;
+  width: 100%;
+  max-height: 1px;
+  background: #3c3c3c;
+}
+.whatWeDo__title::before {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  max-width: 251px;
+  width: 100%;
+  max-height: 1px;
+  background: #3c3c3c;
+}
+.whatWeDo__content-title {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.whatWeDo__content-subtitle {
+  margin: 0;
+  margin-top: 26px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+  max-width: 450px;
+}
+.whatWeDo__content-subtitle:last-child {
+  padding-bottom: 51px;
+}
+
+.icon1 {
+  margin-top: 40px;
+}
+
+.icon2 {
+  margin-top: 60px;
+}
+
+.icon3 {
+  margin-top: 57px;
+}
+
+.images__content {
+  position: relative;
+}
+
+.images__picture {
+  display: block;
+  width: 100%;
+}
+
+.images__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 229px 0 0 30px;
+}
+
+.picture-1 {
+  margin-bottom: 5px;
+}
+
+.picture-2 {
+  margin-bottom: 5px;
+}
+
+.picture-3 {
+  margin-bottom: 5px;
+}
+
+.picture-4 {
+  margin-top: 5px;
+}
+
+.picture-5 {
+  margin-top: 5px;
+}
+
+.picture-6 {
+  margin-top: 5px;
+}
+
+.contactUs {
+  margin: 160px 0;
+  border: 1px solid #3c3c3c;
+  border-top: none;
+}
+.contactUs__content {
+  padding: 0.1px;
+}
+.contactUs__title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  margin: 0;
+  margin-top: -20px;
+}
+.contactUs__title::after {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  max-width: 259px;
+  width: 100%;
+  max-height: 1px;
+  background: #3c3c3c;
+}
+.contactUs__title::before {
+  margin-top: 20px;
+  content: "";
+  display: block;
+  max-width: 260px;
+  width: 100%;
+  max-height: 1px;
+  background: #3c3c3c;
+}
+.contactUs__subtitle {
+  margin-top: 40px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3c3c3c;
+  max-width: 450px;
+}
+.contactUs__btn {
+  margin: 60px 0;
+  outline: none;
+  border: none;
+  width: 290px;
+  height: 58px;
+  background: #3c3c3c;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.contactUs__btn:hover {
+  color: #3c3c3c;
+  background: #ffffff;
+  border: 1px solid #3c3c3c;
+}
+
+.footer {
+  margin-bottom: 30px;
+}
+.footer__text {
+  margin: 0;
+  margin-left: 14px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

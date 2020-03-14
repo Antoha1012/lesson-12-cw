@@ -1,4 +1,4 @@
-.whatWeDo {
+.contactUs {
   margin: 160px 0;
   border: 1px solid #3c3c3c;
   border-top: none;
@@ -21,7 +21,7 @@
       margin-top: 20px;
       content: "";
       display: block;
-      max-width: 251px;
+      max-width: 259px;
       width: 100%;
       max-height: 1px;
       background: #3c3c3c;
@@ -30,27 +30,14 @@
       margin-top: 20px;
       content: "";
       display: block;
-      max-width: 251px;
+      max-width: 260px;
       width: 100%;
       max-height: 1px;
       background: #3c3c3c;
     }
   }
-  &__content-title {
-      margin: 0;
-      margin-top: 30px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #3c3c3c;
-  }
-  &__content-subtitle {
-    margin: 0;
-    margin-top: 26px;
+  &__subtitle {
+    margin-top: 40px;
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
@@ -59,17 +46,27 @@
     text-align: center;
     color: #3c3c3c;
     max-width: 450px;
-    &:last-child{
-        padding-bottom: 51px;
+  }
+  &__btn {
+    margin: 60px 0;
+    outline: none;
+    border: none;
+    width: 290px;
+    height: 58px;
+    background: #3c3c3c;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover {
+      color: #3c3c3c;
+      background: #ffffff;
+      border: 1px solid #3c3c3c;
     }
   }
-}
-.icon1{
-    margin-top: 40px;
-}
-.icon2{
-    margin-top: 60px;
-}
-.icon3{
-    margin-top: 57px;
 }
