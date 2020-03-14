@@ -1,0 +1,62 @@
+.services {
+  margin: 160px 0;
+  &__wrapper {
+    padding: 160px 0;
+    background: url(../../../dist/img/bg2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  &__content {
+    border: 1px solid #3c3c3c;
+    border-top: none;
+    padding: 0.1px;
+  }
+  &__title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3c3c3c;
+    margin: 0;
+    margin-top: -20px;
+
+    &::after {
+      margin-top: 20px;
+      content: "";
+      display: block;
+      max-width: 288px;
+      width: 100%;
+      max-height: 1px;
+      background: #3c3c3c;
+    }
+    &::before {
+      margin-top: 20px;
+      content: "";
+      display: block;
+      max-width: 288px;
+      width: 100%;
+      max-height: 1px;
+      background: #3c3c3c;
+    }
+  }
+  &__subtitle {
+    margin-top: 40px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3c3c3c;
+    letter-spacing: 0.1px;
+    max-width: 450px;
+    &:not(:first-child) {
+      letter-spacing: 0.2px;
+      margin-top: 32px;
+      margin-bottom: 58px;
+    }
+  }
+}

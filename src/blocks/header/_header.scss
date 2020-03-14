@@ -1,0 +1,40 @@
+.header__wrapper {
+  background: url(../../../dist/img/bg.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+.content {
+  &__logo{
+    margin-top: 347px;
+  }
+  &__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    max-width: 610px;
+    margin-top: 67px;
+  }
+  &__subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    max-width: 610px;
+    letter-spacing: 0.2px;
+    margin-top: -9px;
+  }
+  &__scroll{
+    margin-top: 200px;
+    margin-bottom: 119px;
+  }
+}
