@@ -4608,7 +4608,7 @@ html {
   }
 }
 .header__wrapper {
-  background: url(../../../../lesson-12-cw/dist/img/bg.png) no-repeat;
+  background: url(/dist/img/bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -4645,6 +4645,9 @@ html {
 .content__scroll {
   margin-top: 200px;
   margin-bottom: 119px;
+}
+.content__scroll:hover {
+  opacity: 0.5;
 }
 
 .svg {
