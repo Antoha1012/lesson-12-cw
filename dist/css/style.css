@@ -4614,7 +4614,7 @@ html {
 }
 
 .header__wrapper {
-  background: url(./img/bg.png) no-repeat;
+  background: url(../img/bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -4716,7 +4716,7 @@ html {
 }
 .services__wrapper {
   padding: 160px 0;
-  background: url(./img/bg2.png) no-repeat;
+  background: url(../img/bg2.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }
