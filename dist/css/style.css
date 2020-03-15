@@ -4607,17 +4607,23 @@ html {
     margin-left: auto !important;
   }
 }
+.svg {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+}
+
 .header__wrapper {
-  background: url(../../../../lesson-12-cw/dist/img/bg.png) no-repeat;
+  background: url(./img/bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
 }
 
-.content__logo {
+.header__logo {
   margin-top: 347px;
 }
-.content__title {
+.header__title {
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
@@ -4629,7 +4635,7 @@ html {
   max-width: 610px;
   margin-top: 67px;
 }
-.content__subtitle {
+.header__subtitle {
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
@@ -4642,18 +4648,12 @@ html {
   letter-spacing: 0.2px;
   margin-top: -9px;
 }
-.content__scroll {
+.header__scroll {
   margin-top: 200px;
   margin-bottom: 119px;
 }
-.content__scroll:hover {
+.header__scroll:hover {
   opacity: 0.5;
-}
-
-.svg {
-  position: absolute;
-  top: -1000px;
-  left: -1000px;
 }
 
 .about {
@@ -4716,7 +4716,7 @@ html {
 }
 .services__wrapper {
   padding: 160px 0;
-  background: url(../../../../lesson-12-cw/dist/img/bg2.png) no-repeat;
+  background: url(./img/bg2.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -4854,12 +4854,10 @@ html {
 .images__content {
   position: relative;
 }
-
 .images__picture {
   display: block;
   width: 100%;
 }
-
 .images__text {
   position: absolute;
   top: 0;
