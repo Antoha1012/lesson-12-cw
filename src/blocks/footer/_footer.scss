@@ -12,3 +12,15 @@
     color: #000000;
   }
 }
+@media (max-width: 576px){
+  .footer{
+    &__logo{
+      margin-right: 14px;
+      margin-left: 10px;
+    }
+    &__text{
+      font-size: 10px;
+      margin: 0;
+    }
+  }
+}

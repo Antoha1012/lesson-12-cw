@@ -51,7 +51,8 @@
     margin: 44px 0 60px 0;
     outline: none;
     border: none;
-    width: 290px;
+    max-width: 290px;
+    width: 100%;
     height: 58px;
     background: #3c3c3c;
     font-family: "Lato";
@@ -67,6 +68,33 @@
       color: #3c3c3c;
       background: #ffffff;
       border: 1px solid #3c3c3c;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .contactUs {
+    margin: 80px 0;
+    &__title {
+      text-align: left;
+      flex-wrap: nowrap;
+      font-size: 24px;
+      &::after {
+        content: "";
+        width: 60px;
+      }
+      &::before {
+        width: 60px;
+        content: "";
+      }
+    }
+    &__subtitle {
+      margin-top: 20px;
+      padding: 0 15px;
+      text-align: justify;
+    }
+    &__btn{
+      width: 220px;
+      margin: 20px 0 30px 0px;
     }
   }
 }

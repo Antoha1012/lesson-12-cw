@@ -37,9 +37,9 @@
     }
   }
   &__content-title {
-      margin: 0;
-      margin-top: 30px;
-    font-family: 'Lato';
+    margin: 0;
+    margin-top: 30px;
+    font-family: "Lato";
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -59,17 +59,69 @@
     text-align: center;
     color: #3c3c3c;
     max-width: 450px;
-    &:last-child{
-        padding-bottom: 62px;
+    &:last-child {
+      padding-bottom: 62px;
     }
   }
 }
-.icon1{
-    margin-top: 40px;
+.icon1 {
+  margin-top: 40px;
 }
-.icon2{
-    margin-top: 60px;
+.icon2 {
+  margin-top: 60px;
 }
-.icon3{
-    margin-top: 57px;
+.icon3 {
+  margin-top: 57px;
+}
+@media (max-width: 768px) {
+  .whatWeDo {
+    margin: 80px 0;
+    &__title {
+      text-align: left;
+      flex-wrap: nowrap;
+      font-size: 24px;
+      &::after {
+        content: "";
+        width: 210px;
+      }
+      &::before {
+        width: 210px;
+        content: "";
+      }
+    }
+    &__content-title {
+      font-size: 18px;
+    }
+    &__content-subtitle {
+      margin-top: 20px;
+      padding: 0 15px;
+      text-align: justify;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .whatWeDo {
+    margin: 80px 0;
+    &__title {
+      text-align: left;
+      flex-wrap: nowrap;
+      font-size: 24px;
+      &::after {
+        content: "";
+        width: 60px;
+      }
+      &::before {
+        width: 60px;
+        content: "";
+      }
+    }
+    &__content-title {
+      font-size: 18px;
+    }
+    &__content-subtitle {
+      margin-top: 20px;
+      padding: 0 15px;
+      text-align: justify;
+    }
+  }
 }
