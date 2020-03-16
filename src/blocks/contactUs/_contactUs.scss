@@ -73,6 +73,7 @@
 }
 @media (max-width: 576px) {
   .contactUs {
+    width: 104%;
     margin: 80px 0;
     &__title {
       text-align: left;
@@ -93,8 +94,15 @@
       text-align: justify;
     }
     &__btn{
-      width: 220px;
+      max-width: 240px;
       margin: 20px 0 30px 0px;
+    }
+  }
+}
+@media (max-width: 320px){
+  .contactUs{
+    &__btn{
+      width: 200px;
     }
   }
 }

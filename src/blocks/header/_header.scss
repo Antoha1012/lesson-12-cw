@@ -43,7 +43,7 @@
 }
 @media(max-width: 768px){
   .header{
-    
+    width: 111.2%;
     &__logo{
       margin-top: 30px;
     }
@@ -57,7 +57,7 @@
 
 @media(max-width: 576px){
   .header{
-    
+    width: 104%;
     &__logo{
       margin-top: 30px;
     }

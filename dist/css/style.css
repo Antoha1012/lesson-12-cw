@@ -4656,6 +4656,9 @@ html {
 }
 
 @media (max-width: 768px) {
+  .header {
+    width: 111.2%;
+  }
   .header__logo {
     margin-top: 30px;
   }
@@ -4665,6 +4668,9 @@ html {
   }
 }
 @media (max-width: 576px) {
+  .header {
+    width: 104%;
+  }
   .header__logo {
     margin-top: 30px;
   }
@@ -4872,6 +4878,7 @@ html {
 @media (max-width: 576px) {
   .services {
     margin: 0;
+    width: 104%;
   }
   .services__wrapper {
     padding: 80px 0;
@@ -5001,6 +5008,7 @@ html {
 }
 @media (max-width: 576px) {
   .whatWeDo {
+    width: 104%;
     margin: 80px 0;
   }
   .whatWeDo__title {
@@ -5073,7 +5081,7 @@ html {
 
 @media (max-width: 576px) {
   .images {
-    width: 105%;
+    width: 104%;
   }
   .images__text {
     padding: 120px 0 0 20px;
@@ -5159,6 +5167,7 @@ html {
 
 @media (max-width: 576px) {
   .contactUs {
+    width: 104%;
     margin: 80px 0;
   }
   .contactUs__title {
@@ -5180,8 +5189,13 @@ html {
     text-align: justify;
   }
   .contactUs__btn {
-    width: 220px;
+    max-width: 240px;
     margin: 20px 0 30px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .contactUs__btn {
+    width: 200px;
   }
 }
 .footer {
