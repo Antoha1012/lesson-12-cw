@@ -71,6 +71,32 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .contactUs {
+    margin: 80px 0;
+    &__title {
+      text-align: left;
+      flex-wrap: nowrap;
+      font-size: 24px;
+      &::after {
+        content: "";
+        width: 220px;
+      }
+      &::before {
+        width: 220px;
+        content: "";
+      }
+    }
+    &__subtitle {
+      margin-top: 20px;
+      padding: 0 15px;
+      text-align: justify;
+    }
+    &__btn{
+      margin-left: 20px;
+    }
+  }
+}
 @media (max-width: 576px) {
   .contactUs {
     width: 104%;
