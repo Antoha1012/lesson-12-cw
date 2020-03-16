@@ -4665,9 +4665,6 @@ html {
   }
 }
 @media (max-width: 576px) {
-  .header {
-    width: 104%;
-  }
   .header__logo {
     margin-top: 30px;
   }
@@ -4762,7 +4759,6 @@ html {
 }
 @media (max-width: 576px) {
   .about {
-    width: 105%;
     margin: 80px 0;
   }
   .about__title {
@@ -4875,7 +4871,6 @@ html {
 @media (max-width: 576px) {
   .services {
     margin: 0;
-    width: 104%;
   }
   .services__wrapper {
     padding: 80px 0;
@@ -5005,7 +5000,6 @@ html {
 }
 @media (max-width: 576px) {
   .whatWeDo {
-    width: 104%;
     margin: 80px 0;
   }
   .whatWeDo__title {
@@ -5086,9 +5080,6 @@ html {
   }
 }
 @media (max-width: 576px) {
-  .images {
-    width: 104%;
-  }
   .images__text {
     padding: 120px 0 0 20px;
     font-size: 16px;
@@ -5199,7 +5190,6 @@ html {
 }
 @media (max-width: 576px) {
   .contactUs {
-    width: 104%;
     margin: 80px 0;
   }
   .contactUs__title {
