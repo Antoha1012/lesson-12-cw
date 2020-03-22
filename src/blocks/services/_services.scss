@@ -2,9 +2,9 @@
   margin: 160px 0;
   &__wrapper {
     padding: 160px 0;
-    background: url(../img/bg2.png) no-repeat;
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
   }
   &__content {
     border: 1px solid #ffffff;
@@ -111,4 +111,11 @@
       text-align: justify;
     }
   }
+}
+.webp .services__wrapper{
+  background-image: url(../img/bg2.webp);
+}
+.no-webp .services__wrapper{
+  background-image: url(../img/bg2.png);
+ 
 }

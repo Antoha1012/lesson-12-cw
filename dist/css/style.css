@@ -4614,9 +4614,13 @@ html {
 }
 
 .header__wrapper {
+<<<<<<< HEAD
   background: url(../img/bg.webp) no-repeat;
+=======
+>>>>>>> gh-pages
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   width: 100%;
 }
 .header__logo {
@@ -4679,6 +4683,14 @@ html {
     margin-bottom: 20px;
   }
 }
+.webp .header__wrapper {
+  background-image: url(../img/bg.webp);
+}
+
+.no-webp .header__wrapper {
+  background-image: url(../img/bg.png);
+}
+
 .about {
   margin: 160px 0;
   border: 1px solid #3c3c3c;
@@ -4785,9 +4797,9 @@ html {
 }
 .services__wrapper {
   padding: 160px 0;
-  background: url(../img/bg2.png) no-repeat;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
 }
 .services__content {
   border: 1px solid #ffffff;
@@ -4894,6 +4906,14 @@ html {
     text-align: justify;
   }
 }
+.webp .services__wrapper {
+  background-image: url(../img/bg2.webp);
+}
+
+.no-webp .services__wrapper {
+  background-image: url(../img/bg2.png);
+}
+
 .whatWeDo {
   margin: 160px 0;
   border: 1px solid #3c3c3c;

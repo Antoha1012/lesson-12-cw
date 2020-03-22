@@ -8,4 +8,7 @@ mixin header
                     h1.header__title WORKING WITH design LAB
                     p.header__subtitle We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.
                     a.header__scroll(href="#")
-                        img.header__images(src="./img/scroll.webp", alt="")
+                        picture
+                            source(srcset="./img/scroll.svg.webp", type="image/webp")
+                            source(srcset="./img/scroll.svg.png", type="image/png")
+                            img.header__images(src="./img/scroll.png", alt="")
