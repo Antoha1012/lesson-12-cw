@@ -4614,10 +4614,6 @@ html {
 }
 
 .header__wrapper {
-<<<<<<< HEAD
-  background: url(../img/bg.webp) no-repeat;
-=======
->>>>>>> gh-pages
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -5058,8 +5054,8 @@ html {
 }
 .images__text {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 10%;
+  left: 5%;
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
@@ -5068,9 +5064,28 @@ html {
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
-  padding: 229px 0 0 26px;
 }
 
+@media (max-width: 1200px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .images__text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 992px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .images__text {
+    font-size: 16px;
+  }
+}
 @media (max-width: 768px) {
   .images {
     display: grid;
@@ -5078,7 +5093,6 @@ html {
     grid-gap: 10px;
   }
   .images__text {
-    padding: 110px 0 0 20px;
     font-size: 16px;
   }
 }
@@ -5089,7 +5103,6 @@ html {
     grid-gap: 10px;
   }
   .images__text {
-    padding: 110px 0 0 20px;
     font-size: 16px;
   }
 }
