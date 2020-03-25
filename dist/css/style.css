@@ -4891,11 +4891,9 @@ html {
   .services__title::after {
     content: "";
     min-width: 80px;
-    margin-left: 20px;
   }
   .services__title::before {
     min-width: 80px;
-    margin-right: 20px;
     content: "";
   }
   .services__subtitle {

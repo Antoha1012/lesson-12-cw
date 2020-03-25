@@ -99,12 +99,10 @@
       &::after {
         content: "";
         min-width: 80px;
-        margin-left: 20px;
         
       }
       &::before {
         min-width: 80px;
-        margin-right: 20px;
         content: "";
       }
     }
