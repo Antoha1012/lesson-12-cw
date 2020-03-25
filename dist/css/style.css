@@ -4864,10 +4864,10 @@ html {
   }
   .services__title::after {
     content: "";
-    width: 230px;
+    min-width: 200px;
   }
   .services__title::before {
-    width: 200px;
+    min-width: 200px;
     content: "";
   }
   .services__subtitle {
@@ -4890,10 +4890,12 @@ html {
   }
   .services__title::after {
     content: "";
-    width: 80px;
+    min-width: 80px;
+    margin-left: 20px;
   }
   .services__title::before {
-    width: 80px;
+    min-width: 80px;
+    margin-right: 20px;
     content: "";
   }
   .services__subtitle {
